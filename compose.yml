@@ -1,6 +1,6 @@
 services:
   teamspeak:
-    image: teamspeak:lastest
+    image: teamspeak:latest
     restart: always
     ports:
       - 9987:9987/udp
