@@ -29,7 +29,15 @@ chmod +x init.sh
 
 ### 部署服务
 
+部署。
+
 ```bash
-git clone https://github.com/Lucifer-Jimmy/Teamspeak-Server-AutoBuild.git
+docker compose up -d
+```
+
+查看管理员账号密码。
+
+```bash
+docker logs <container_id>
 ```
 
