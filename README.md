@@ -20,13 +20,6 @@ ufw allow 30033
 
 以及，我们还要修改 docker compose 中的数据库密码。
 
-当然，这里可以用我们的脚本一键完成设置。
-
-```bash
-chmod +x init.sh
-./init.sh
-```
-
 ### 部署服务
 
 部署。
@@ -41,3 +34,9 @@ docker compose up -d
 docker logs <container_id>
 ```
 
+当然，这里可以用我们的脚本一键完成设置并启动。
+
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
