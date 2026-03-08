@@ -18,7 +18,7 @@ ufw allow 10011
 ufw allow 30033
 ```
 
-以及，我们还要修改 docker compose 中的数据库密码。
+以及，我们还要修改 `compose.yml` 中的数据库密码，安装 docker 以及 docker compose。
 
 ### 部署服务
 
@@ -28,7 +28,7 @@ ufw allow 30033
 docker compose up -d
 ```
 
-查看管理员账号密码。
+查看管理员账号密码，后续要输入这个来获取管理员身份。
 
 ```bash
 docker logs <container_id>
@@ -42,3 +42,4 @@ docker logs <container_id>
 chmod +x deploy.sh
 ./deploy.sh
 ```
+
