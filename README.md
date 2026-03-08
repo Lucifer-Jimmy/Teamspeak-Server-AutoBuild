@@ -34,6 +34,8 @@ docker compose up -d
 docker logs <container_id>
 ```
 
+### 一键部署
+
 当然，这里可以用我们的脚本一键完成设置并启动。
 
 ```bash
